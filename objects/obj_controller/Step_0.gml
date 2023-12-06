@@ -32,7 +32,7 @@ else if(room_get_name(room) == "rm_game"){
 	if(tuktuk_isBroken){
 		obj_move_parent.driver_max_speed = 0;
 		obj_move_parent.speed = 0;
-		if(part_system_exists(_brokenTukTuk)){
+		if(part_system_exists(_brokenTukTuk) and not(instance_exists(ps_broken_tuktuk))){
 			part_system_position(_brokenTukTuk, obj_tuktuk.x, obj_tuktuk.y-48);
 			part_system_layer(_brokenTukTuk,"above");
 		}

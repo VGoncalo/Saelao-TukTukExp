@@ -10,6 +10,7 @@ if(inMenu){
 		draw_text_transformed(obj_char_salome.x+512, obj_char_salome.y, selected_character[1],2,2,0);
 	}
 }else if(inGame){
+	draw_text_transformed(camera_get_view_x(view_camera[0])+(room_width/3),camera_get_view_y(view_camera[0])+620,"instance: "+string(instance_number(all)),2,2,0);
 	if(isGameOver){
 		draw_set_color(c_black);
 		draw_set_alpha(0.5);
@@ -20,7 +21,9 @@ if(inMenu){
 		var str_player_score = "Total Points: "+string(_current_player_score);
 		draw_text_transformed(camera_get_view_x(view_camera[0])+(room_width/3),camera_get_view_y(view_camera[0])+578,str_player_score,2,2,0);
 		
-		instance_create_layer(camera_get_view_x(view_camera[0])+(room_width/2),camera_get_view_y(view_camera[0])+578,"above",obj_restart_btn);
+		if(not(instance_exists(obj_restart_btn))){
+			instance_create_layer(camera_get_view_x(view_camera[0])+(room_width/2),camera_get_view_y(view_camera[0])+578,"above",obj_restart_btn);
+		}
 	}
 }
 
