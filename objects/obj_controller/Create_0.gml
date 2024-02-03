@@ -35,3 +35,6 @@ part_system_clear(_brokenTukTuk);
 
 _uniColor = shader_get_uniform(sh_depth_highlight, "u_colour");
 _color    = [1.0, 1.0, 0.0, 1.0];
+
+//Lootlocker
+LootLockerInitialize("dev_230239e200de470b9634d203a9c3e981", "0.1", true, "19174");
