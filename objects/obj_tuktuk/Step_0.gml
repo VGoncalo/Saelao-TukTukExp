@@ -3,16 +3,33 @@ var right = keyboard_check(vk_right);
 var front = keyboard_check(vk_space);
 var breaking = keyboard_check(vk_down);
 
+var _windForce = 0;
+if(obj_effects.wind){
+	var _fx_struct = layer_get_fx("efWindBlow");
+	var _parrams = fx_get_parameters(_fx_struct);
+	show_debug_message(_parrams.param_wind_vector_x);
+	_windForce = sign(_parrams.param_wind_vector_x);
+}
+
 if(left){
 	image_angle=5;
-	if(isMoving and engine_health > 0){hspeed = -wheel_drag;}
+	if(isMoving and engine_health > 0){
+		hspeed = -wheel_drag;
+	}
+	_windForce = 0 ? hspeed = -wheel_drag : hspeed = -wheel_drag + _windForce;
 }
-if(right and engine_health > 0){
+if(right){
 	image_angle=-5;
-	if(isMoving){hspeed = wheel_drag;}	
+	if(isMoving and engine_health > 0){
+		hspeed = wheel_drag;
+	}	
+	_windForce = 0 ? hspeed = wheel_drag : hspeed = wheel_drag + _windForce;
 }
 if(!right and !left){hspeed = 0; image_angle = 0;}
+if(!right and !left and _windForce != 0){hspeed = _windForce; image_angle = 0;}
+
 if(!isMoving){hspeed = 0;}
+
 
 if(front){
 	with(obj_move_parent){
@@ -64,3 +81,4 @@ if(engine_health <= 0){
 
 layer_vspeed("Background", obj_move_parent.speed);
 layer_vspeed("Background_Road", obj_move_parent.speed);
+layer_vspeed("efWindBlow", obj_move_parent.speed);

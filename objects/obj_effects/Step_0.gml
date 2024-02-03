@@ -16,11 +16,19 @@ if(shake){
 
 if(layer_exists("efWindBlow")){
 	if(wind){
-		layer_enable_fx("efWindBlow", true);	
+		layer_enable_fx("efWindBlow", true);
 	}else{
 		layer_enable_fx("efWindBlow", false);
 	}
 }
 
-
-
+/*if(rain){
+	if(!part_system_exists(ps_rain)){
+		_rain_ps = part_system_create(ps_rain);
+		_emiter_rain = part_emitter_create(_rain_ps);
+	}
+}else{
+	if(part_system_exists(ps_rain)){
+		part_emitter_destroy_all(ps_rain);
+	}
+}*/

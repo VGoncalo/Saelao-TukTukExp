@@ -90,6 +90,7 @@
     {"id":{"name":"obj_items_spawner","path":"objects/obj_items_spawner/obj_items_spawner.yy",},},
     {"id":{"name":"spr_trees","path":"sprites/spr_trees/spr_trees.yy",},},
     {"id":{"name":"spr_truck","path":"sprites/spr_truck/spr_truck.yy",},},
+    {"id":{"name":"obj_Income_motobike","path":"objects/obj_Income_motobike/obj_Income_motobike.yy",},},
     {"id":{"name":"spr_morlor","path":"sprites/spr_morlor/spr_morlor.yy",},},
     {"id":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},},
     {"id":{"name":"obj_restart_btn","path":"objects/obj_restart_btn/obj_restart_btn.yy",},},

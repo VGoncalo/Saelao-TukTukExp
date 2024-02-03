@@ -4,5 +4,5 @@ if(wind){
 }else{
 	wind = true;
 }
-show_debug_message(rain);
+//show_debug_message(wind);
 alarm[1] = wind_timer * random_range(2,5);

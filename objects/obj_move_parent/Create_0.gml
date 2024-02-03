@@ -24,5 +24,10 @@ show_debug_message(_name);
 if( _name == "obj_volunteer"){
 	alarm[0] = 30;
 }else if( _name == "obj_motobike"){
-	image_yscale = image_yscale*2;
+	image_yscale = image_yscale*1.5;
+}else if(_name == "obj_Income_motobike"){
+	image_yscale = image_yscale*-1.5;
+}else if(_name == "obj_school_volunteer"){
+	image_xscale = image_xscale * 1.5;
+	image_yscale = image_yscale * 1.5;
 }

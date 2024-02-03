@@ -15,6 +15,7 @@ alarm[2] = room_speed*spawn_volunteer;
 alarm[4] = room_speed*spawn_truck;
 alarm[5] = room_speed*spawn_buffalo;
 alarm[6] = room_speed*75;
+alarm[8] = room_speed*10;
 
 
 

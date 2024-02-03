@@ -63,6 +63,7 @@
     {"name":"obj_items_spawner","order":5,"path":"objects/obj_items_spawner/obj_items_spawner.yy",},
     {"name":"spr_trees","order":2,"path":"sprites/spr_trees/spr_trees.yy",},
     {"name":"spr_truck","order":7,"path":"sprites/spr_truck/spr_truck.yy",},
+    {"name":"obj_Income_motobike","order":6,"path":"objects/obj_Income_motobike/obj_Income_motobike.yy",},
     {"name":"spr_morlor","order":1,"path":"sprites/spr_morlor/spr_morlor.yy",},
     {"name":"obj_house","order":2,"path":"objects/obj_house/obj_house.yy",},
     {"name":"obj_restart_btn","order":6,"path":"objects/obj_restart_btn/obj_restart_btn.yy",},
