@@ -1,6 +1,7 @@
 if(room_get_name(room) == "rm_start"){
 	inMenu = true;
 	inGame = false;
+	//asd
 	
 	if(selected_character == characters[0]){
 		obj_char_morlor.image_index = 1;
@@ -27,6 +28,7 @@ else if(room_get_name(room) == "rm_game"){
 		if(obj_tuktuk.engine_health <=0 ){
 			//game_restart();
 			tuktuk_isBroken = true;
+			obj_tuktuk.isMoving = false;
 		}
 	}
 	if(tuktuk_isBroken){
@@ -36,10 +38,17 @@ else if(room_get_name(room) == "rm_game"){
 			part_system_position(_brokenTukTuk, obj_tuktuk.x, obj_tuktuk.y-48);
 			part_system_layer(_brokenTukTuk,"above");
 		}
-		//isGameOver = true;
+		
 		if(!isGameOver and alarm_get(0) == -1){
 			alarm_set(0, room_speed*1);
 			//isGameOver = true;
+			obj_items_spawner.alarm[0] = -1;
+			obj_items_spawner.alarm[1] = -1;
+			obj_items_spawner.alarm[2] = -1;
+			obj_items_spawner.alarm[3] = -1;
+			obj_items_spawner.alarm[4] = -1;
+			obj_items_spawner.alarm[5] = -1;
+			obj_items_spawner.alarm[6] = -1;
 		}
 	}
 	/*
@@ -50,11 +59,9 @@ else if(room_get_name(room) == "rm_game"){
 		}
 	}
 	if(instance_exists(obj_motobike)){
-		
 		if(part_system_exists(_motobike_dirt)){
 			part_system_position(_motobike_dirt,obj_motobike.x,obj_motobike.y+16);
 			part_system_layer(_motobike_dirt,"above");		
-		
 		}
 	}
 	*/

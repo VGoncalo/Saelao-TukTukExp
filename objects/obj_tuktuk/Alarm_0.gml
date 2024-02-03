@@ -1,2 +1,2 @@
 speak = false;
-_tempSpeach = dialog[7];
+//_tempSpeach = dialog[7];

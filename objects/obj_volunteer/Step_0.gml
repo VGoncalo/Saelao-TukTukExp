@@ -1,4 +1,7 @@
+sineWave = 0 + (1+sin(2*pi*current_time/1000 * 0.30))+0.8;
+
 var _volunteer = id;
+
 if(distance_to_object(obj_tuktuk)<160){
 	if(obj_move_parent.speed <= 2){
 		move_towards_point(obj_tuktuk.x,obj_tuktuk.y-64, 2);		

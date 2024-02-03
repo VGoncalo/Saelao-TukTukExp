@@ -2,18 +2,20 @@
 
 
 //spawn houses
-var leftORright = random(3);
-if(leftORright < 1){
-	var house_instance = instance_create_layer(random_range(256,roadx),860, "above",obj_house);
-}else{
-	var house_instance = instance_create_layer(random_range(roadx2+256,2000),860, "above",obj_house);
+if(not(instance_exists(obj_house))){
+	var leftORright = random(3);
+	if(leftORright < 1){
+		var house_instance = instance_create_layer(random_range(256,roadx),860, "above",obj_house);
+	}else{
+		var house_instance = instance_create_layer(random_range(roadx2+256,2000),860, "above",obj_house);
+	}
+	house_instance.image_index = random_range(0,5);
+	house_instance.image_xscale = 0.5;
+	house_instance.image_yscale = 0.5;
 }
-house_instance.image_index = random_range(0,5);
-house_instance.image_xscale = 0.5;
-house_instance.image_yscale = 0.5;
-
 
 //spawn trees
+
 var amount_of_trees_to_spanw = random_range(5, 10);
 for(var i=0;i < amount_of_trees_to_spanw;i++){
 	var tree_instance_left = instance_create_layer(random_range(64,roadx),random_range(0,124)-i*64, "above",obj_tree);
@@ -38,6 +40,8 @@ tree_instance_right_extra.image_yscale = tree_instance_right_extra.image_yscale*
 
 
 //spawn bushes
+//place_meeting();
+
 for(var i=0;i < amount_of_trees_to_spanw+8;i++){
 	var bush_instance_left = instance_create_layer(random_range(128,roadx),random_range(0,124)+i*64, "path",obj_bush);
 	bush_instance_left.image_index = random_range(0,7);

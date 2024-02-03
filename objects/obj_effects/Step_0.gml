@@ -13,3 +13,14 @@ if(shake){
 		}
 	}
 }
+
+if(layer_exists("efWindBlow")){
+	if(wind){
+		layer_enable_fx("efWindBlow", true);	
+	}else{
+		layer_enable_fx("efWindBlow", false);
+	}
+}
+
+
+

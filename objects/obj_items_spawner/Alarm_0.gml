@@ -1,6 +1,5 @@
 /// @description hole timer
-
-//var xposition = obj_tuktuk
+var _isTukTukBroken = obj_controller.tuktuk_isBroken;
 var hole = instance_create_layer(obj_tuktuk.x+random_range(-256,256), 0, "path",obj_hole);
 alarm[0] = room_speed*random_range(1,spawn_hole);
 

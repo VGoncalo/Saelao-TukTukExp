@@ -17,7 +17,6 @@ selected_character = characters[0];
 inMenu = true;
 inGame = false;
 isGameOver = false;
-//alarm[0] = -1;
 
 //Current Game Session Info
 pc_speed = 0;
@@ -32,5 +31,7 @@ tuktuk_isBroken = false;
 tuktuk_isMoving = false;
 
 _brokenTukTuk = part_system_create(ps_broken_tuktuk);
-_truck_dirt = part_system_create(ps_dirt);
-_motobike_dirt = part_system_create(ps_dirt);
+part_system_clear(_brokenTukTuk);
+
+_uniColor = shader_get_uniform(sh_depth_highlight, "u_colour");
+_color    = [1.0, 1.0, 0.0, 1.0];

@@ -13,4 +13,4 @@ draw_text_transformed(32, camera_get_view_y(view_camera[0])+134,_current_time_on
 draw_sprite(obj_controller.selected_character[3],1,364,camera_get_view_y(view_camera[0])+96);
 draw_sprite(spr_tuktuk,1,560,camera_get_view_y(view_camera[0])+128);
 
-draw_healthbar(620,camera_get_view_y(view_camera[0])+72,1860,camera_get_view_y(view_camera[0])+180,engine_health*10,c_black,c_red,c_green,-1,true,true);
+draw_healthbar(620,camera_get_view_y(view_camera[0])+72,1860,camera_get_view_y(view_camera[0])+180,engine_health,c_black,c_red,c_green,-1,true,true);

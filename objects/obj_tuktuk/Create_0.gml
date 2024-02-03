@@ -6,7 +6,7 @@ isMoving = false;
 
 wheel_drag = 5;
 
-engine_health = 10;
+engine_health = 100;
 capacity = 10;
 
 time_on_road = 0;
@@ -21,10 +21,12 @@ dialog = [
 	"Volunteer ahead!!",
 	"Let's go!",
 	"The TukTuk is full!",
-	"Cows ahead",
+	"Buffalo ahead",
 	"That's a big truck",
 	"Have Fun!",
 	"Whatch out!",
-	"*@#!!"
+	"*@#!!",
+	"Volunteer on your RIGHT",
+	"Volunteer on your LEFT"
 ];
 _tempSpeach = dialog[7];

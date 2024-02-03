@@ -1,18 +1,1 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+effect_create_below(ef_explosion,x,y,2,c_green);
