@@ -37,4 +37,5 @@ _uniColor = shader_get_uniform(sh_depth_highlight, "u_colour");
 _color    = [1.0, 1.0, 0.0, 1.0];
 
 //Lootlocker
-LootLockerInitialize("dev_230239e200de470b9634d203a9c3e981", "0.1", true, "19174");
+LootLockerInitialize("dev_d0ebc41583314cfab5cee156362fa866", "0.1", true, 20178);
+LootLockerSetPlayerName("TESTINGthings");

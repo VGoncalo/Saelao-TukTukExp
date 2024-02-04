@@ -64,7 +64,7 @@ if(next_volunteer > 256 and next_volunteer < 2000){
 	if(alarm[0] = -1){
 		//_tempSpeach = dialog[0];
 		var _volunteerDirection = point_direction(x,y,obj_volunteer.x,obj_volunteer.y);
-		show_debug_message(_volunteerDirection);
+		//show_debug_message(_volunteerDirection);
 		if(_volunteerDirection < 90 ){
 			_tempSpeach = dialog[8];
 		}else if(_volunteerDirection < 180 && _volunteerDirection > 90){
@@ -77,6 +77,15 @@ if(next_volunteer > 256 and next_volunteer < 2000){
 
 if(engine_health <= 0){
 	effect_create_below(ef_smokeup,x,y-48,1,c_gray);
+	show_debug_message(obj_controller._current_player_score);
+	show_debug_message(LLPlayerName());
+	show_debug_message(LLPlayerID());
+	show_debug_message(LLPlayerScore());
+	//string(obj_controller._current_player_score)
+	var psc = int64(obj_controller._current_player_score);
+	show_debug_message(psc);
+	
+	LootLockerSubmitScore("20178",psc);
 }
 
 layer_vspeed("Background", obj_move_parent.speed);

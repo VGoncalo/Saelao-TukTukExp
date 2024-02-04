@@ -1,1 +1,1 @@
-//LootLockerCallback();
+LootLockerCallback();
