@@ -111,6 +111,7 @@
     {"id":{"name":"obj_quit_btn","path":"objects/obj_quit_btn/obj_quit_btn.yy",},},
     {"id":{"name":"spr_background_grass","path":"sprites/spr_background_grass/spr_background_grass.yy",},},
     {"id":{"name":"LootLockerLeaderboards","path":"extensions/LootLockerLeaderboards/LootLockerLeaderboards.yy",},},
+    {"id":{"name":"obj_lootscore","path":"objects/obj_lootscore/obj_lootscore.yy",},},
     {"id":{"name":"objLLLeaderboardManager","path":"objects/objLLLeaderboardManager/objLLLeaderboardManager.yy",},},
     {"id":{"name":"anmCrvLLJumpCurve","path":"animcurves/anmCrvLLJumpCurve/anmCrvLLJumpCurve.yy",},},
     {"id":{"name":"sprLLRock","path":"sprites/sprLLRock/sprLLRock.yy",},},

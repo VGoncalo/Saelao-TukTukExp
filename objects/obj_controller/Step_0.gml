@@ -30,6 +30,7 @@ else if(room_get_name(room) == "rm_game"){
 			tuktuk_isBroken = true;
 			obj_tuktuk.isMoving = false;
 		}
+		
 	}
 	if(tuktuk_isBroken){
 		obj_move_parent.driver_max_speed = 0;
@@ -50,21 +51,19 @@ else if(room_get_name(room) == "rm_game"){
 			obj_items_spawner.alarm[5] = -1;
 			obj_items_spawner.alarm[6] = -1;
 		}
+		
+
+		//Lootlocker
+		//show_debug_message(_current_player_score);
+		//show_debug_message(LLPlayerName());
+		//show_debug_message(LLPlayerID());
+		//show_debug_message(LLPlayerScore());
+		//string(obj_controller._current_player_score)
+		//show_debug_message(_current_player_score);
+		//LootLockerInitialize("dev_d0ebc41583314cfab5cee156362fa866", "0.1", true, 20179);
+		//LootLockerSubmitScore("20179",_current_player_score);
 	}
-	/*
-	if(instance_exists(obj_truck)){
-		if(part_system_exists(_truck_dirt)){
-			part_system_position(_truck_dirt,obj_truck.x,obj_truck.y+64);
-			part_system_layer(_truck_dirt,"above");		
-		}
-	}
-	if(instance_exists(obj_motobike)){
-		if(part_system_exists(_motobike_dirt)){
-			part_system_position(_motobike_dirt,obj_motobike.x,obj_motobike.y+16);
-			part_system_layer(_motobike_dirt,"above");		
-		}
-	}
-	*/
+
 }
 else if(room_get_name(room) == "rm_leaderboard"){
 

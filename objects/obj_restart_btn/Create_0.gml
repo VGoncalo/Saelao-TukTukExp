@@ -1,0 +1,1 @@
+player_score = obj_controller._current_player_score;

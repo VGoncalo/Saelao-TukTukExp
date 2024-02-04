@@ -30,3 +30,8 @@ dialog = [
 	"Volunteer on your LEFT"
 ];
 _tempSpeach = dialog[7];
+
+//lootlocker_update = true;
+//show_debug_message("from tuktuk")
+
+//obj_controller.player_previous_score = LLPlayerScore();

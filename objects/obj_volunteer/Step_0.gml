@@ -12,13 +12,13 @@ if(distance_to_object(obj_tuktuk)<160){
 					obj_tuktuk.amount_of_volunteers = obj_tuktuk.amount_of_volunteers+1;
 					//draw_text(obj_tuktuk.x+128,obj_tuktuk.y-128,"Lets go!!")
 					instance_destroy(_volunteer);		
-				}else{
-					// say that there is no space
-					draw_text(x,y,"There is no more space in the tuktuk");
 				}
 			}
 	
 		}
 	}
+}
+if(distance_to_object(obj_school) < 520){
+	instance_destroy();
 }
 

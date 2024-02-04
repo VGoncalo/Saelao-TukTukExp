@@ -81,6 +81,7 @@
     {"name":"obj_quit_btn","order":3,"path":"objects/obj_quit_btn/obj_quit_btn.yy",},
     {"name":"spr_background_grass","order":5,"path":"sprites/spr_background_grass/spr_background_grass.yy",},
     {"name":"LootLockerLeaderboards","order":3,"path":"extensions/LootLockerLeaderboards/LootLockerLeaderboards.yy",},
+    {"name":"obj_lootscore","order":20,"path":"objects/obj_lootscore/obj_lootscore.yy",},
     {"name":"objLLLeaderboardManager","order":3,"path":"objects/objLLLeaderboardManager/objLLLeaderboardManager.yy",},
     {"name":"anmCrvLLJumpCurve","order":2,"path":"animcurves/anmCrvLLJumpCurve/anmCrvLLJumpCurve.yy",},
     {"name":"sprLLRock","order":4,"path":"sprites/sprLLRock/sprLLRock.yy",},

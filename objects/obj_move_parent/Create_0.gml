@@ -20,7 +20,7 @@ timer = 0;
 
 
 _name = object_get_name(object_index);
-show_debug_message(_name);
+//show_debug_message(_name);
 if( _name == "obj_volunteer"){
 	alarm[0] = 30;
 }else if( _name == "obj_motobike"){
