@@ -41,8 +41,12 @@ if(front){
 
 if(breaking){
 	with(obj_move_parent){
-		if(speed > 1.5){
-			speed -= driver_breaking;	
+		if(speed > 0.1){
+			if(obj_effects.rain){
+				speed -= driver_breaking*0.5;
+			}else{
+				speed -= driver_breaking;
+			}
 			screenshake(1,8,4);
 		}
 	}
@@ -91,3 +95,4 @@ if(engine_health <= 0){
 layer_vspeed("Background", obj_move_parent.speed);
 layer_vspeed("Background_Road", obj_move_parent.speed);
 layer_vspeed("efWindBlow", obj_move_parent.speed);
+pc_score = obj_controller._current_player_score;

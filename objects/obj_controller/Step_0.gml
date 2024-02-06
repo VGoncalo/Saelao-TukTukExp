@@ -52,16 +52,7 @@ else if(room_get_name(room) == "rm_game"){
 			obj_items_spawner.alarm[6] = -1;
 		}
 		
-
-		//Lootlocker
-		//show_debug_message(_current_player_score);
-		//show_debug_message(LLPlayerName());
-		//show_debug_message(LLPlayerID());
-		//show_debug_message(LLPlayerScore());
-		//string(obj_controller._current_player_score)
-		//show_debug_message(_current_player_score);
-		//LootLockerInitialize("dev_d0ebc41583314cfab5cee156362fa866", "0.1", true, 20179);
-		//LootLockerSubmitScore("20179",_current_player_score);
+	_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10;
 	}
 
 }

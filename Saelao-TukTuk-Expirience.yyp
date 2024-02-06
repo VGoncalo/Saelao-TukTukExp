@@ -62,6 +62,7 @@
     {"id":{"name":"objLLGameController","path":"objects/objLLGameController/objLLGameController.yy",},},
     {"id":{"name":"ps_dirt","path":"particles/ps_dirt/ps_dirt.yy",},},
     {"id":{"name":"obj_school_volunteer","path":"objects/obj_school_volunteer/obj_school_volunteer.yy",},},
+    {"id":{"name":"rm_about","path":"rooms/rm_about/rm_about.yy",},},
     {"id":{"name":"objLLDecreaseScore","path":"objects/objLLDecreaseScore/objLLDecreaseScore.yy",},},
     {"id":{"name":"spr_ts_road","path":"sprites/spr_ts_road/spr_ts_road.yy",},},
     {"id":{"name":"roomLootLockerLeaderboardsGuide","path":"rooms/roomLootLockerLeaderboardsGuide/roomLootLockerLeaderboardsGuide.yy",},},
@@ -127,6 +128,7 @@
     {"id":{"name":"ts_road","path":"tilesets/ts_road/ts_road.yy",},},
     {"id":{"name":"fontLLFontHighscore","path":"fonts/fontLLFontHighscore/fontLLFontHighscore.yy",},},
     {"id":{"name":"sprLLCoin","path":"sprites/sprLLCoin/sprLLCoin.yy",},},
+    {"id":{"name":"obj_teacher","path":"objects/obj_teacher/obj_teacher.yy",},},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},},
     {"id":{"name":"obj_path","path":"objects/obj_path/obj_path.yy",},},
     {"id":{"name":"objLLPlayer","path":"objects/objLLPlayer/objLLPlayer.yy",},},
@@ -165,6 +167,7 @@
     {"roomId":{"name":"roomLLRockyRunnerExample","path":"rooms/roomLLRockyRunnerExample/roomLLRockyRunnerExample.yy",},},
     {"roomId":{"name":"roomLLSimpleLeaderboardExample","path":"rooms/roomLLSimpleLeaderboardExample/roomLLSimpleLeaderboardExample.yy",},},
     {"roomId":{"name":"roomLootLockerLeaderboardsGuide","path":"rooms/roomLootLockerLeaderboardsGuide/roomLootLockerLeaderboardsGuide.yy",},},
+    {"roomId":{"name":"rm_about","path":"rooms/rm_about/rm_about.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

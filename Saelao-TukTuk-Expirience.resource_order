@@ -41,6 +41,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_school_volunteer","order":16,"path":"objects/obj_school_volunteer/obj_school_volunteer.yy",},
+    {"name":"rm_about","order":2,"path":"rooms/rm_about/rm_about.yy",},
     {"name":"objLLDecreaseScore","order":1,"path":"objects/objLLDecreaseScore/objLLDecreaseScore.yy",},
     {"name":"spr_ts_road","order":1,"path":"sprites/spr_ts_road/spr_ts_road.yy",},
     {"name":"roomLootLockerLeaderboardsGuide","order":5,"path":"rooms/roomLootLockerLeaderboardsGuide/roomLootLockerLeaderboardsGuide.yy",},
@@ -93,6 +94,7 @@
     {"name":"ps_broken_tuktuk","order":1,"path":"particles/ps_broken_tuktuk/ps_broken_tuktuk.yy",},
     {"name":"spr_volunteer_run","order":6,"path":"sprites/spr_volunteer_run/spr_volunteer_run.yy",},
     {"name":"fontLLFontHighscore","order":1,"path":"fonts/fontLLFontHighscore/fontLLFontHighscore.yy",},
+    {"name":"obj_teacher","order":21,"path":"objects/obj_teacher/obj_teacher.yy",},
     {"name":"obj_hole","order":1,"path":"objects/obj_hole/obj_hole.yy",},
     {"name":"obj_path","order":6,"path":"objects/obj_path/obj_path.yy",},
     {"name":"objLLPlayer","order":1,"path":"objects/objLLPlayer/objLLPlayer.yy",},

@@ -24,6 +24,8 @@ pc_character = "None";
 pc_time_in_game = 0;
 pc_distance = 0;
 pc_volunteers_in_school = 0;
+pc_Engineers_in_school = 0;
+pc_Teachers_in_school = 0;
 pc_engine_health = 0;
 _current_player_score = 0;
 player_previous_score = 0;
@@ -39,5 +41,4 @@ _color    = [1.0, 1.0, 0.0, 1.0];
 
 //Lootlocker
 LootLockerInitialize("dev_d0ebc41583314cfab5cee156362fa866", "0.1", true, 20179);
-LootLockerSetPlayerName("TESTINGthings");
-//show_debug_message(LLPlayerScore());
+LootLockerSetPlayerName("test v0.1");

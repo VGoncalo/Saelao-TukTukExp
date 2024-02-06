@@ -22,13 +22,10 @@ if(layer_exists("efWindBlow")){
 	}
 }
 
-/*if(rain){
-	if(!part_system_exists(ps_rain)){
-		_rain_ps = part_system_create(ps_rain);
-		_emiter_rain = part_emitter_create(_rain_ps);
+if(rain){
+	if(!part_system_exists(rain_ps)){
+		rain_ps = part_system_create(ps_rain);
 	}
 }else{
-	if(part_system_exists(ps_rain)){
-		part_emitter_destroy_all(ps_rain);
-	}
-}*/
+	part_system_destroy(rain_ps);
+}

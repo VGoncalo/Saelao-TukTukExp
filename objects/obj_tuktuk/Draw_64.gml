@@ -16,7 +16,7 @@ draw_text_transformed(32, camera_get_view_y(view_camera[0])+134,_current_time_on
 //draw_sprite(spr_tuktuk,1,560,camera_get_view_y(view_camera[0])+128);
 draw_sprite(spr_tuktuk,1,48,camera_get_view_y(view_camera[0])+32);
 
-var _tempPPts = ""+string(obj_controller._current_player_score)+" Pts";
+var _tempPPts = ""+string(pc_score)+" Pts";
 draw_text_transformed(1680, camera_get_view_y(view_camera[0])+100,string(_tempPPts),2,2,0);
 //draw_set_color(c_grey);
 //var _tempPrevPts = ""+string(player_previous_score)+" Pts";
