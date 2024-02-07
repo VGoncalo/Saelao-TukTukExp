@@ -47,7 +47,8 @@ if(breaking){
 			}else{
 				speed -= driver_breaking;
 			}
-			screenshake(1,8,4);
+			
+			if speed > 2 screenshake(1,8,4);
 		}
 	}
 	
@@ -103,5 +104,9 @@ if(amount_of_engineers > 0){
 }
 
 pc_score = obj_controller._current_player_score;
-show_debug_message(pc_score)
+//show_debug_message(pc_score)
 //_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10;
+var _cameraxx = camera_get_view_x(view_camera[0]);
+var _camerayy = camera_get_view_y(view_camera[0]);
+show_debug_message(_cameraxx);
+show_debug_message(_camerayy);

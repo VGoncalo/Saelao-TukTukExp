@@ -8,9 +8,9 @@ start_menu = [
 
 // Name, Description, MaxSpeed
 characters = [
-	["Morlor","Fast and Furious", 18, spr_morlor],
-	["Salome","Smooth Racer", 15, spr_salome],
-	["Peter","Slow but Steady", 12, spr_peter]
+	["Morlor","Fast and Furious", 20, spr_morlor],
+	["Salome","Smooth Racer", 16, spr_salome],
+	["Peter","Steady Hand", 12, spr_peter]
 ];
 selected_character = characters[0];
 

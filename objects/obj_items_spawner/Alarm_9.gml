@@ -1,8 +1,9 @@
-/// @description spawn env items 2sec
+/// @description spawn env items 1sec
+
 
 //spawn bushes
 //place_meeting();
-var amount_of_bushes_to_spanw = random_range(5, 10);
+var amount_of_bushes_to_spanw = random_range(6, 12);
 for(var i=0;i < amount_of_bushes_to_spanw+8;i++){
 	var bush_instance_left = instance_create_layer(random_range(128,roadx),random_range(0,124)+i*64, "path",obj_bush);
 	bush_instance_left.image_index = random_range(0,7);
@@ -54,4 +55,4 @@ tree_instance_right_extra.image_xscale = tree_instance_right_extra.image_xscale*
 tree_instance_right_extra.image_yscale = tree_instance_right_extra.image_yscale*3;
 
 //reset alarm
-alarm[7] = room_speed*2;
+alarm[9] = room_speed;

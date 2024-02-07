@@ -24,3 +24,4 @@ env_type_to_spawn = 0;
 spawn_enviornment = 3;
 alarm[3] = room_speed*spawn_enviornment;
 alarm[7] = room_speed*(spawn_enviornment-1);
+alarm[9] = room_speed*(spawn_enviornment-2);
