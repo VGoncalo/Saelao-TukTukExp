@@ -10,7 +10,7 @@ draw_text_transformed(camera_get_view_x(view_camera[0])+64, camera_get_view_y(vi
 draw_text_transformed(32, camera_get_view_y(view_camera[0])+102,_current_volunteers,2,2,0);
 draw_text_transformed(32, camera_get_view_y(view_camera[0])+134,_current_time_on_road,2,2,0);
 draw_text_transformed(256,camera_get_view_y(view_camera[0])+512,"my 22222",2,2,0);
-draw_text_transformed(308+96,2584+96,"my String",2,2,0);
+draw_text_transformed(obj_tuktuk.x-64,obj_tuktuk.y+64,"my String",2,2,0);
 
 
 //draw_sprite_stretched(obj_controller.selected_character[3], 1, 128,  camera_get_view_y(view_camera[0])+102,2,2);
