@@ -15,7 +15,6 @@ if(not(instance_exists(obj_house))){
 }
 
 //spawn trees
-
 var amount_of_trees_to_spanw = random_range(5, 10);
 for(var i=0;i < amount_of_trees_to_spanw;i++){
 	var tree_instance_left = instance_create_layer(random_range(64,roadx),random_range(0,124)-i*64, "above",obj_tree);

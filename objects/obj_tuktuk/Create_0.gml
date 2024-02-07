@@ -33,6 +33,7 @@ dialog = [
 	"Volunteer on your LEFT"
 ];
 _tempSpeach = dialog[7];
+eng_heal_timer = 90;
 
 //lootlocker_update = true;
 //show_debug_message("from tuktuk")

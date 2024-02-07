@@ -41,7 +41,6 @@ tree_instance_right_extra.image_yscale = tree_instance_right_extra.image_yscale*
 
 //spawn bushes
 //place_meeting();
-
 for(var i=0;i < amount_of_trees_to_spanw+8;i++){
 	var bush_instance_left = instance_create_layer(random_range(128,roadx),random_range(0,124)+i*64, "path",obj_bush);
 	bush_instance_left.image_index = random_range(0,7);

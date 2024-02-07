@@ -95,4 +95,12 @@ if(engine_health <= 0){
 layer_vspeed("Background", obj_move_parent.speed);
 layer_vspeed("Background_Road", obj_move_parent.speed);
 layer_vspeed("efWindBlow", obj_move_parent.speed);
-pc_score = obj_controller._current_player_score;
+
+if(amount_of_engineers > 0){
+	if(alarm[2] = -1){
+		alarm[2] = eng_heal_timer;
+	}
+}
+
+//pc_score = obj_controller._current_player_score;
+//_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10;

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_teacher",
+  "name": "obj_engineer",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_teacher",
-    "path": "sprites/spr_teacher/spr_teacher.yy",
+    "name": "spr_Engineer",
+    "path": "sprites/spr_Engineer/spr_Engineer.yy",
   },
   "spriteMaskId": null,
   "visible": true,
