@@ -6,9 +6,15 @@ if(room_get_name(room) == "rm_start"){
 	if(selected_character == characters[0]){
 		obj_char_morlor.image_index = 1;
 		obj_char_salome.image_index = 0;
+		obj_char_peter.image_index = 0;
 	}else if(selected_character == characters[1]){
 		obj_char_morlor.image_index = 0;
 		obj_char_salome.image_index = 1;
+		obj_char_peter.image_index = 0;
+	}else if(selected_character == characters[2]){
+		obj_char_morlor.image_index = 0;
+		obj_char_salome.image_index = 0;
+		obj_char_peter.image_index = 1;
 	}
 }
 else if(room_get_name(room) == "rm_game"){
@@ -51,10 +57,8 @@ else if(room_get_name(room) == "rm_game"){
 			obj_items_spawner.alarm[5] = -1;
 			obj_items_spawner.alarm[6] = -1;
 		}
-		
-	_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10;
 	}
-
+	_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10;
 }
 else if(room_get_name(room) == "rm_leaderboard"){
 

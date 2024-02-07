@@ -1,0 +1,1 @@
+obj_controller.selected_character = obj_controller.characters[2];
