@@ -53,6 +53,7 @@ tree_instance_right_extra.image_yscale = tree_instance_right_extra.image_yscale*
 //spawn Temple
 if(not(instance_exists(obj_temple))){
 	var TempleLeftORright = random(3);
+	var PagodaOStatue = random(2);
 	if(TempleLeftORright < 1){
 		var _Templeinstance = instance_create_layer(random_range(64,roadx-128),860, "above",obj_temple);
 		var _instance = instance_create_layer(random_range(64,roadx-128),920, "above",obj_monk);
@@ -60,6 +61,10 @@ if(not(instance_exists(obj_temple))){
 		var _Templeinstance = instance_create_layer(random_range(roadx2+300,2500),860, "above",obj_temple);
 		var _instance = instance_create_layer(random_range(roadx2-128,2600),920, "above",obj_monk);
 	}
+	if(PagodaOStatue > 1){ _Templeinstance.image_index = 0}else{
+		_Templeinstance.image_index = 1;
+		instance_create_layer(_Templeinstance.x+64,_Templeinstance.y+64, "above",obj_monk);
+		}
 }
 
 //reset alarm

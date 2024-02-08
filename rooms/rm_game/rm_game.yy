@@ -111,7 +111,7 @@
 1,273,-76,-2147483648,-3,304,1,305,-13,-2147483648,3,262,263,264,-60,-2147483648,-3,304,1,305,-13,-2147483648,3,294,295,296,-60,-2147483648,-3,304,1,305,-13,-2147483648,3,326,327,328,-60,-2147483648,-3,304,1,305,-76,-2147483648,-3,304,1,305,-76,-2147483648,-3,304,1,305,-76,-2147483648,-3,304,1,305,-76,-2147483648,-3,304,1,305,-76,-2147483648,-3,336,1,337,-533,-2147483648,1,91,-6,92,
 -73,-2147483648,7,123,124,187,188,189,189,124,-73,-2147483648,7,123,187,124,124,187,188,124,-73,-2147483648,7,123,187,188,124,124,188,124,-73,-2147483648,7,123,187,124,124,373,374,124,-73,-2147483648,1,123,-6,124,-73,-2147483648,2,123,187,-3,124,2,188,189,-73,-2147483648,3,123,187,188,-3,124,1,189,-19,-2147483648,3,643,644,645,-51,-2147483648,7,123,124,187,187,188,
 189,124,-19,-2147483648,3,675,676,677,-51,-2147483648,1,155,-6,156,-19,-2147483648,3,707,708,709,-3434,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_road","path":"tilesets/ts_road/ts_road.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background_Road","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":600,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background_Road","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":666,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":800,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_background_grass","path":"sprites/spr_background_grass/spr_background_grass.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
@@ -134,7 +134,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":720,"hport":1920,"hspeed":-1,"hview":1700,"inherit":false,"objectId":{"name":"obj_tuktuk","path":"objects/obj_tuktuk/obj_tuktuk.yy",},"vborder":512,"visible":true,"vspeed":-1,"wport":1080,"wview":1512,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":720,"hport":1920,"hspeed":-1,"hview":1920,"inherit":false,"objectId":{"name":"obj_tuktuk","path":"objects/obj_tuktuk/obj_tuktuk.yy",},"vborder":512,"visible":true,"vspeed":-1,"wport":1080,"wview":1600,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -145,7 +145,7 @@
   ],
   "viewSettings": {
     "clearDisplayBuffer": true,
-    "clearViewBackground": true,
+    "clearViewBackground": false,
     "enableViews": true,
     "inheritViewSettings": false,
   },

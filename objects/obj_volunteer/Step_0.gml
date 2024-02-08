@@ -1,4 +1,4 @@
-sineWave = 0 + (1+sin(2*pi*current_time/1000 * 0.30))+0.8;
+sineWave = 0 + (1+sin(2*pi*current_time/1000 * 0.8))+0.8;
 
 var _volunteer = id;
 

@@ -60,6 +60,7 @@ else if(room_get_name(room) == "rm_game"){
 	pc_time_in_game = obj_tuktuk.time_on_road;
 	_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10 - (pc_total_tramples)*2;
 }
-else if(room_get_name(room) == "rm_leaderboard"){
-
+else if(room_get_name(room) == "rm_about"){
+	//draw text
+	show_debug_message("in about room")
 }

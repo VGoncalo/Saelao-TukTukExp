@@ -35,8 +35,8 @@ if( _name == "obj_volunteer"){
 	image_xscale = image_xscale * 3.5;
 	image_yscale = image_yscale * 3;
 }else if(_name == "obj_person_idle"){
-	image_xscale = image_xscale * 1.5;
-	image_yscale = image_yscale * 1.5;
+	image_xscale = image_xscale * 3;
+	image_yscale = image_yscale * 3;
 }else if(_name == "obj_dog"){
 	alarm[0] = 3;
 }

@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "road obstacles",
+    "path": "folders/Objects/road obstacles.yy",
   },
   "parentObjectId": {
     "name": "obj_move_parent",

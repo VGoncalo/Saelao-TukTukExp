@@ -13,13 +13,13 @@ gpu_set_blendmode(bm_add);
 for(c=0;c<360;c+=20){
 	draw_sprite_ext(sGlowEffect,
 					image_index,
-					x+lengthdir_x(24,c),
-					y+lengthdir_y(24,c),
+					x+lengthdir_x(42,c),
+					y+lengthdir_y(42,c),
 					image_xscale,
 					image_yscale,
 					image_angle,
 					image_blend,
-					sineWave*0.02);
+					sineWave*0.01);
 }
 gpu_set_blendmode(bm_normal);
 /*

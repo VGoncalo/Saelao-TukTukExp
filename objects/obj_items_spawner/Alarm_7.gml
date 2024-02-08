@@ -21,10 +21,10 @@ if(not(instance_exists(obj_house))){
 	var leftORright = random(3);
 	if(leftORright < 1){
 		var house_instance = instance_create_layer(random_range(256,roadx),860, "above",obj_house);
-		//var person_instance = instance_create_layer(random_range(256,roadx),86, "above",obj_person_idle);
+		var person_instance = instance_create_layer(random_range(256,roadx),86, "above",obj_person_idle);
 	}else{
 		var house_instance = instance_create_layer(random_range(roadx2+256,2000),860, "above",obj_house);
-		//var person_instance = instance_create_layer(random_range(roadx2+256,2000),860,"above",obj_person_idle);
+		var person_instance = instance_create_layer(random_range(roadx2+256,2000),860,"above",obj_person_idle);
 	}
 	house_instance.image_index = random_range(0,5);
 	house_instance.image_xscale = 0.5;
