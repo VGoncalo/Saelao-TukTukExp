@@ -26,6 +26,7 @@ pc_distance = 0;
 pc_volunteers_in_school = 0;
 pc_Engineers_in_school = 0;
 pc_Teachers_in_school = 0;
+pc_total_tramples = 0;
 pc_engine_health = 0;
 _current_player_score = 0;
 player_previous_score = 0;

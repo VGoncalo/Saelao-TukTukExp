@@ -63,6 +63,7 @@
     {"id":{"name":"ps_dirt","path":"particles/ps_dirt/ps_dirt.yy",},},
     {"id":{"name":"obj_school_volunteer","path":"objects/obj_school_volunteer/obj_school_volunteer.yy",},},
     {"id":{"name":"rm_about","path":"rooms/rm_about/rm_about.yy",},},
+    {"id":{"name":"ps_blood","path":"particles/ps_blood/ps_blood.yy",},},
     {"id":{"name":"objLLDecreaseScore","path":"objects/objLLDecreaseScore/objLLDecreaseScore.yy",},},
     {"id":{"name":"spr_ts_road","path":"sprites/spr_ts_road/spr_ts_road.yy",},},
     {"id":{"name":"obj_dog","path":"objects/obj_dog/obj_dog.yy",},},

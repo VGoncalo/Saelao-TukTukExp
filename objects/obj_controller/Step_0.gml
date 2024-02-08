@@ -1,7 +1,6 @@
 if(room_get_name(room) == "rm_start"){
 	inMenu = true;
 	inGame = false;
-	//asd
 	
 	if(selected_character == characters[0]){
 		obj_char_morlor.image_index = 1;
@@ -58,7 +57,8 @@ else if(room_get_name(room) == "rm_game"){
 			obj_items_spawner.alarm[6] = -1;
 		}
 	}
-	_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10;
+	pc_time_in_game = obj_tuktuk.time_on_road;
+	_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10 - (pc_total_tramples)*2;
 }
 else if(room_get_name(room) == "rm_leaderboard"){
 

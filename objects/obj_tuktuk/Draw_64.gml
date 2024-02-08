@@ -14,3 +14,6 @@ draw_healthbar(96,camera_get_view_y(view_camera[1])+1356,350,camera_get_view_y(v
 
 var _tempPPts = ""+string(pc_score)+" Pts";
 draw_text_transformed(1700, camera_get_view_y(view_camera[1])+1420,string(_tempPPts),2,2,0);
+
+
+//draw_text_transformed(1700, camera_get_view_y(view_camera[1])+1396,string(amount_of_tramples),2,2,0);

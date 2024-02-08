@@ -42,6 +42,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_school_volunteer","order":16,"path":"objects/obj_school_volunteer/obj_school_volunteer.yy",},
     {"name":"rm_about","order":2,"path":"rooms/rm_about/rm_about.yy",},
+    {"name":"ps_blood","order":3,"path":"particles/ps_blood/ps_blood.yy",},
     {"name":"objLLDecreaseScore","order":1,"path":"objects/objLLDecreaseScore/objLLDecreaseScore.yy",},
     {"name":"spr_ts_road","order":1,"path":"sprites/spr_ts_road/spr_ts_road.yy",},
     {"name":"obj_dog","order":26,"path":"objects/obj_dog/obj_dog.yy",},

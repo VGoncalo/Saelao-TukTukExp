@@ -17,6 +17,7 @@ amount_of_volunteers = 0;
 max_capacity_of_volunteers = 8;
 amount_of_teachers = 0;
 amount_of_engineers = 0;
+amount_of_tramples = 0;
 pc_score = 0;
 
 speak = false;

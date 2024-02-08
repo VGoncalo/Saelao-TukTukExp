@@ -13,9 +13,6 @@ if(inMenu){
 		draw_text_transformed(obj_char_peter.x+512, obj_char_peter.y, selected_character[1],2,2,0);
 	}
 }else if(inGame){
-	//draw_text_transformed(camera_get_view_x(view_camera[0])+(room_width/3),camera_get_view_y(view_camera[0])+620,"instance: "+string(instance_number(all)),2,2,0);
-	//var _tempPPts = ""+string(_current_player_score)+" Pts";
-	//draw_text_transformed(1680, camera_get_view_y(view_camera[0])+32,_tempPPts,2,2,0);
 	if(isGameOver){
 		draw_set_color(c_black);
 		draw_set_alpha(0.5);
@@ -31,12 +28,3 @@ if(inMenu){
 		}
 	}
 }
-
-
-
-
-
-
-
-
-

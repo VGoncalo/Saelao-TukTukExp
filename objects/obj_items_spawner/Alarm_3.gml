@@ -20,10 +20,10 @@ if(not(instance_exists(obj_monk))){
 	var leftORright = random(3);
 	if(leftORright < 1){
 		var _instance = instance_create_layer(random_range(256,roadx),860, "above",obj_monk);
-		var _instance = instance_create_layer(random_range(256,roadx),800, "above",obj_dog);
+		//var _instance = instance_create_layer(random_range(256,roadx),800, "above",obj_dog);
 	}else{
-		var _instance = instance_create_layer(random_range(roadx2+256,2000),860, "above",obj_monk);
-		var _instance = instance_create_layer(random_range(roadx2+256,2000),800, "above",obj_dog);
+		var _instance = instance_create_layer(random_range(roadx2+312,2000),860, "above",obj_monk);
+		//var _instance = instance_create_layer(random_range(roadx2+256,2000),800, "above",obj_dog);
 	}
 }
 
@@ -60,7 +60,6 @@ if(not(instance_exists(obj_temple))){
 		var _Templeinstance = instance_create_layer(random_range(roadx2+300,2500),860, "above",obj_temple);
 		var _instance = instance_create_layer(random_range(roadx2-128,2600),920, "above",obj_monk);
 	}
-show_debug_message("spawn temple")
 }
 
 //reset alarm
