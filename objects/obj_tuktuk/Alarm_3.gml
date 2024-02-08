@@ -1,0 +1,1 @@
+speakL = false;

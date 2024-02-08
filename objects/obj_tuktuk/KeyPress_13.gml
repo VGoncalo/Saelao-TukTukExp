@@ -1,7 +1,3 @@
-
-//Drop volunteers at school
-
-//var school = distance_to_object(obj_school);
 if(instance_exists(obj_school) && amount_of_volunteers != 0){
 	speak = true;
 	_tempSpeach = dialog[5];

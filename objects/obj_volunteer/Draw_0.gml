@@ -19,7 +19,7 @@ for(c=0;c<360;c+=20){
 					image_yscale,
 					image_angle,
 					image_blend,
-					sineWave*0.01);
+					sineWave*0.02);
 }
 gpu_set_blendmode(bm_normal);
 /*

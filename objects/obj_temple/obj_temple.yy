@@ -1,17 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_lootscore",
+  "name": "obj_temple",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "road obstacles",
+    "path": "folders/Objects/road obstacles.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_move_parent",
+    "path": "objects/obj_move_parent/obj_move_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_morlor",
-    "path": "sprites/spr_morlor/spr_morlor.yy",
+    "name": "spr_pagoda",
+    "path": "sprites/spr_pagoda/spr_pagoda.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,5 +1,5 @@
-roadx = 630;
-roadx2 = 1500;
+roadx = 620;
+roadx2 = 1480;
 
 spawn_hole = 4;
 spawn_motobike = 6;

@@ -7,8 +7,6 @@ driver_breaking = 0.5;
 acceleration = 0.2;
 speak = false;
 
-//_road_dirt_ef = part_system_create(ps_dirt);
-
 //_uniColor = shader_get_uniform(sh_depth_highlight, "u_colour");
 _color    = [1.0, 1.0, 0.0, 1.0];
 
@@ -18,9 +16,9 @@ frequency = 0.1;
 amplitude = 0.1;
 timer = 0;
 
+isIdle = true;
 
 _name = object_get_name(object_index);
-//show_debug_message(_name);
 if( _name == "obj_volunteer"){
 	alarm[0] = 30;
 }else if( _name == "obj_motobike"){
@@ -33,4 +31,12 @@ if( _name == "obj_volunteer"){
 }else if(_name == "obj_monk"){
 	image_xscale = image_xscale * 2;
 	image_yscale = image_yscale * 2;
+}else if(_name == "obj_temple"){
+	image_xscale = image_xscale * 3.5;
+	image_yscale = image_yscale * 3;
+}else if(_name == "obj_person_idle"){
+	image_xscale = image_xscale * 1.5;
+	image_yscale = image_yscale * 1.5;
+}else if(_name == "obj_dog"){
+	alarm[0] = 3;
 }

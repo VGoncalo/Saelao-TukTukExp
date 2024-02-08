@@ -20,12 +20,13 @@ amount_of_engineers = 0;
 pc_score = 0;
 
 speak = false;
+speakL = false;
 dialog = [
 	"Volunteer ahead!!",
 	"Let's go!",
 	"The TukTuk is full!",
-	"Buffalo ahead",
-	"That's a big truck",
+	"COWS ahead!!",
+	"Chinese truck ahead",
 	"Have Fun!",
 	"Whatch out!",
 	"*@#!!",
@@ -33,9 +34,5 @@ dialog = [
 	"Volunteer on your LEFT"
 ];
 _tempSpeach = dialog[7];
+_tempSpeachL = dialog[7];
 eng_heal_timer = 180;
-
-//lootlocker_update = true;
-//show_debug_message("from tuktuk")
-
-//obj_controller.player_previous_score = LLPlayerScore();

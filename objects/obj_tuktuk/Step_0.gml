@@ -4,12 +4,12 @@ var front = keyboard_check(vk_space);
 var breaking = keyboard_check(vk_down);
 
 var _windForce = 0;
-if(obj_effects.wind){
+if(obj_effects.wind && obj_controller.selected_character[0] != "Peter"){
 	var _fx_struct = layer_get_fx("efWindBlow");
 	var _parrams = fx_get_parameters(_fx_struct);
-	//show_debug_message(_parrams.param_wind_vector_x);
 	_windForce = sign(_parrams.param_wind_vector_x);
 }
+
 
 if(left){
 	image_angle=5;
@@ -25,9 +25,9 @@ if(right){
 	}	
 	_windForce = 0 ? hspeed = wheel_drag : hspeed = wheel_drag + _windForce;
 }
+
 if(!right and !left){hspeed = 0; image_angle = 0;}
 if(!right and !left and _windForce != 0){hspeed = _windForce; image_angle = 0;}
-
 if(!isMoving){hspeed = 0;}
 
 
@@ -41,13 +41,12 @@ if(front){
 
 if(breaking){
 	with(obj_move_parent){
-		if(speed > 0.1){
+		if(speed > 0){
 			if(obj_effects.rain){
 				speed -= driver_breaking*0.5;
 			}else{
 				speed -= driver_breaking;
 			}
-			
 			if speed > 2 screenshake(1,8,4);
 		}
 	}
@@ -56,12 +55,20 @@ if(breaking){
 
 var next_volunteer = distance_to_object(obj_volunteer);
 var next_buffalo = distance_to_object(obj_buffalo);
+var next_truck = distance_to_object(obj_truck);
 
 if(next_buffalo > 256 and next_buffalo < 2000){
 	if(alarm[0] = -1){
 		_tempSpeach = dialog[3];
 		speak = true;
 		alarm[0] = room_speed*1;
+	}
+}
+if(next_truck > 512 and next_truck < 2000){
+	if(alarm[3] = -1){
+		_tempSpeachL = dialog[4];
+		speakL = true;
+		alarm[3] = room_speed*1;
 	}
 }
 
@@ -104,9 +111,3 @@ if(amount_of_engineers > 0){
 }
 
 pc_score = obj_controller._current_player_score;
-//show_debug_message(pc_score)
-//_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10;
-var _cameraxx = camera_get_view_x(view_camera[0]);
-var _camerayy = camera_get_view_y(view_camera[0]);
-show_debug_message(_cameraxx);
-show_debug_message(_camerayy);
