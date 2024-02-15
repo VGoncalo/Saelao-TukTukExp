@@ -104,6 +104,7 @@ layer_vspeed("Background", obj_move_parent.speed);
 layer_vspeed("Background_Road", obj_move_parent.speed);
 layer_vspeed("efWindBlow", obj_move_parent.speed);
 
+//show_debug_message(amount_of_engineers);
 if(amount_of_engineers > 0){
 	if(alarm[2] = -1){
 		alarm[2] = eng_heal_timer;

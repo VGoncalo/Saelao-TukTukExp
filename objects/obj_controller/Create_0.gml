@@ -42,5 +42,5 @@ _color    = [1.0, 1.0, 0.0, 1.0];
 
 //Lootlocker
 LootLockerInitialize("dev_d0ebc41583314cfab5cee156362fa866", "0.1", true, 20179);
-//LootLockerSetPlayerName("test v0.1");
+
 

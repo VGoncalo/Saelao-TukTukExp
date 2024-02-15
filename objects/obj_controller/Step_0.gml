@@ -1,4 +1,4 @@
-if(room_get_name(room) == "rm_start"){
+if(room_get_name(room) == "rm_menu"){
 	inMenu = true;
 	inGame = false;
 	

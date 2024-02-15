@@ -36,4 +36,4 @@ dialog = [
 ];
 _tempSpeach = dialog[7];
 _tempSpeachL = dialog[7];
-eng_heal_timer = 180;
+eng_heal_timer = room_speed*2;

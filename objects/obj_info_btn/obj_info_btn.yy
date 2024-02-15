@@ -1,16 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_school_volunteer_teacher",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-  ],
+  "name": "obj_info_btn",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Menu",
+    "path": "folders/Objects/Menu.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_teacher",
-    "path": "sprites/spr_teacher/spr_teacher.yy",
+    "name": "spr_info_btn",
+    "path": "sprites/spr_info_btn/spr_info_btn.yy",
   },
   "spriteMaskId": null,
   "visible": true,
