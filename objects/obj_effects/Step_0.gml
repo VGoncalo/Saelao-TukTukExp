@@ -29,3 +29,8 @@ if(rain){
 }else{
 	part_system_destroy(rain_ps);
 }
+
+
+if(object_exists(obj_tuktuk)){
+	
+}

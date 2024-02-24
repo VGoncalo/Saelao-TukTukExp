@@ -10,4 +10,7 @@ rain_ps = part_system_create(ps_rain);
 
 wind = false;
 wind_timer = 2*room_speed;
-alarm[1] = wind_timer*5;
+alarm[1] = 3*(wind_timer*5);
+
+truck_dirt_ps = part_system_create(ps_dirt);
+tuktuk_dirt_ps = part_system_create(ps_dirt);

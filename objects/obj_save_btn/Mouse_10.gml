@@ -1,0 +1,1 @@
+draw_text_ext_transformed_color(x,y,"Save & Quit",1,1,1,1,0,c_white,c_white,c_white,c_white,1);

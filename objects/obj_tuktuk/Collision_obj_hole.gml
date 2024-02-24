@@ -4,6 +4,7 @@ if(obj_move_parent.speed > 6){
 	if(alarm[0] = -1 ){
 		_tempSpeach = dialog[7];
 		speak = true;
+		speak_swear = true;
 		alarm[0] = room_speed*1;
 	}
 }else if(obj_move_parent.speed > 3 && obj_move_parent.speed <= 6){
@@ -12,6 +13,7 @@ if(obj_move_parent.speed > 6){
 	if(alarm[0] = -1 ){
 		_tempSpeach = dialog[7];
 		speak = true;
+		speak_swear = true;
 		alarm[0] = room_speed*1;
 	}
 }

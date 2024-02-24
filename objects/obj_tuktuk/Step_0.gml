@@ -58,43 +58,49 @@ var next_buffalo = distance_to_object(obj_buffalo);
 var next_truck = distance_to_object(obj_truck);
 
 if(next_buffalo > 256 and next_buffalo < 2000){
+	speak_cows = true;
 	if(alarm[0] = -1){
 		_tempSpeach = dialog[3];
 		speak = true;
 		alarm[0] = room_speed*1;
 	}
-}
+}else{speak_cows = false;}
 if(next_truck > 512 and next_truck < 2000){
-	if(alarm[3] = -1){
+	/*if(alarm[3] = -1){
 		_tempSpeachL = dialog[4];
 		speakL = true;
 		alarm[3] = room_speed*1;
-	}
-}
+	}*/
+	speak_truck = true;
+}else{speak_truck = false;}
 
 if(next_volunteer > 256 and next_volunteer < 2000){
 	if(alarm[0] = -1){
 		var _volunteerDirection = point_direction(x,y,obj_volunteer.x,obj_volunteer.y);
 		if(_volunteerDirection < 90 ){
-			_tempSpeach = dialog[8];
-		}else if(_volunteerDirection < 180 && _volunteerDirection > 90){
-			_tempSpeach = dialog[9];
+			//_tempSpeach = dialog[8];
+			speak_volunteer_right = true;
+		}
+		if(_volunteerDirection < 180 && _volunteerDirection > 90){
+			//_tempSpeach = dialog[9];
+			speak_volunteer_left = true;
 		}
 		speak = true;
 		alarm[0] = room_speed*1;
 	}
-}
+}else{speak_volunteer_right = false; speak_volunteer_left = false;}
 if(next_volunteer < 32 and amount_of_volunteers == max_capacity_of_volunteers){
 	if(alarm[0] = -1){
 		_tempSpeach = dialog[2];
 		speak = true;
 		alarm[0] = room_speed*1;
 	}
-	with(next_volunteer){
-		instance_destroy();
-	}
-	obj_controller._current_player_score += 1;
-}
+	speak_nospace = true;
+	//instance_destroy(next_volunteer);
+	
+	//obj_controller._current_player_score += 1;
+	//pc_score += 1;
+}else{speak_nospace = false;}
 
 if(engine_health <= 0){
 	effect_create_below(ef_smokeup,x,y-48,1,c_gray);

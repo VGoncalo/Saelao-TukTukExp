@@ -40,3 +40,5 @@ if( _name == "obj_volunteer"){
 }else if(_name == "obj_dog"){
 	alarm[0] = 3;
 }
+
+npctalk = choose("Hello","Hi!!");
