@@ -1,6 +1,6 @@
 screenshake(4,256,8);
-engine_health -= 50;
-
+engine_health -= obj_move_parent.speed * 0.8;
+//obj_move_parent.speed -= 5;
 if(alarm[0] = -1 ){
 	_tempSpeach = dialog[7];
 	speak = true;

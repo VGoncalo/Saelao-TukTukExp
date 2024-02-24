@@ -150,5 +150,6 @@
     {"name":"obj_motobike","order":3,"path":"objects/obj_motobike/obj_motobike.yy",},
     {"name":"objLLTopHighscores","order":6,"path":"objects/objLLTopHighscores/objLLTopHighscores.yy",},
     {"name":"spr_tuktuk","order":8,"path":"sprites/spr_tuktuk/spr_tuktuk.yy",},
+    {"name":"obj_counter","order":13,"path":"objects/obj_counter/obj_counter.yy",},
   ],
 }

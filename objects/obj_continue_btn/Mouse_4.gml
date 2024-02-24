@@ -1,1 +1,1 @@
-load_game()
+if(obj_controller.selected_character!="None"){load_game();}

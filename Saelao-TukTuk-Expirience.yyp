@@ -193,6 +193,7 @@
     {"id":{"name":"screenshake","path":"scripts/screenshake/screenshake.yy",},},
     {"id":{"name":"spr_salome","path":"sprites/spr_salome/spr_salome.yy",},},
     {"id":{"name":"spr_buffalo","path":"sprites/spr_buffalo/spr_buffalo.yy",},},
+    {"id":{"name":"obj_counter","path":"objects/obj_counter/obj_counter.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "RoomOrderNodes": [

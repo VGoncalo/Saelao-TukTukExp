@@ -39,6 +39,8 @@ if( _name == "obj_volunteer"){
 	image_yscale = image_yscale * 3;
 }else if(_name == "obj_dog"){
 	alarm[0] = 3;
+}else if(_name == "obj_buffalo"){
+	_myspeed = random_range(0.2,3);
 }
 
 npctalk = choose("Hello","Hi!!");

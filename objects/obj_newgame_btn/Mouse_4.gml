@@ -1,1 +1,1 @@
-room_goto(rm_game);
+if(obj_controller.selected_character!="None"){room_goto(rm_game);}

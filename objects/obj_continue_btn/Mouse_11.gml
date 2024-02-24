@@ -1,1 +1,1 @@
-image_index = 0;
+if(obj_controller.selected_character!="None"){image_index = 0;}

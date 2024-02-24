@@ -8,11 +8,11 @@ start_menu = [
 
 // Name, Description, MaxSpeed
 characters = [
-	["Morlor","Fast and Furious", 20, spr_morlor],
-	["Salome","Smooth Racer", 16, spr_salome],
-	["Peter","Steady Hand", 12, spr_peter]
+	["Morlor","Fast and Furious", 22, spr_morlor],
+	["Salome","Smooth Racer", 18, spr_salome],
+	["Peter","Steady Hand", 14, spr_peter]
 ];
-selected_character = characters[0];
+selected_character = "None";
 
 inMenu = true;
 inGame = false;
