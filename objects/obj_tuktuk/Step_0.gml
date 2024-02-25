@@ -1,6 +1,6 @@
 var left = keyboard_check(vk_left);
 var right = keyboard_check(vk_right);
-var front = keyboard_check(vk_space);
+var front = keyboard_check(vk_up);
 var breaking = keyboard_check(vk_down);
 
 var _windForce = 0;

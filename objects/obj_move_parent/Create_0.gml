@@ -43,4 +43,4 @@ if( _name == "obj_volunteer"){
 	_myspeed = random_range(0.2,3);
 }
 
-npctalk = choose("Hello","Hi!!");
+npctalk = choose("Hello"," Hi!!");
