@@ -4,6 +4,7 @@ var front = keyboard_check(vk_space);
 var breaking = keyboard_check(vk_down);
 
 var _windForce = 0;
+
 if(obj_effects.wind && obj_controller.selected_character[0] != "Peter"){
 	var _fx_struct = layer_get_fx("efWindBlow");
 	var _parrams = fx_get_parameters(_fx_struct);
@@ -31,7 +32,7 @@ if(!right and !left and _windForce != 0){hspeed = _windForce; image_angle = 0;}
 if(!isMoving){hspeed = 0;}
 
 
-if(front){
+if(front && not(instance_exists(obj_counter))){
 	with(obj_move_parent){
 		if(speed <= driver_max_speed){
 			speed += acceleration;	

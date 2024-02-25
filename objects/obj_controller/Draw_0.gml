@@ -29,4 +29,14 @@ if(room_get_name(room) == "rm_game" && isGamePause){
 	var _view_h = camera_get_view_height(view_camera[0]);
 	draw_text_ext_transformed(_view_x+_view_w/3 , _view_y+_view_h/2, "Game Paused",1,256,4,4,0);
 	
+	var _homex = obj_save_btn.x;
+	var _homey = obj_save_btn.y;
+	if(_homex and _homey){
+		draw_text_ext_transformed(_homex-96, _homey+98, "Save & Quit",1,256,2,2,0);
+	}
+	var _pausequitx = obj_pause_quit.x;
+	var _pausequity = obj_pause_quit.y;
+	if(_pausequitx and _pausequity){
+		draw_text_ext_transformed(_pausequitx-96, _pausequity+98, "Just Quit",1,256,2,2,0);
+	}
 }

@@ -70,11 +70,15 @@ else if(room_get_name(room) == "rm_game"){
 			instance_deactivate_all(true);
 			if(not(instance_exists(obj_save_btn))){
 				instance_create_layer(camera_get_view_x(view_camera[0])+512,camera_get_view_y(view_camera[0])+1204,"above",obj_save_btn);
+				instance_create_layer(camera_get_view_x(view_camera[0])+1024,camera_get_view_y(view_camera[0])+1204,"above",obj_pause_quit);
 			}
 		}else{
 			instance_activate_all();
 			if(instance_exists(obj_save_btn)){
 				with(obj_save_btn){instance_destroy();}
+			}
+			if(instance_exists(obj_pause_quit)){
+				with(obj_pause_quit){instance_destroy();}
 			}
 		}
 	}

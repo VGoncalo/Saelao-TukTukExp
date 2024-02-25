@@ -12,6 +12,8 @@ capacity = 10;
 time_on_road = 0;
 distance_traveled = 0;
 alarm[1]=room_speed;
+//startFlagCounter = false
+//alarm[4] = room_speed*3;
 
 amount_of_volunteers = 0;
 max_capacity_of_volunteers = 8;
