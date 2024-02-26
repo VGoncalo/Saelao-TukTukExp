@@ -32,4 +32,7 @@ if(collision_ellipse(x-124,y-320,x+124,y+320,obj_tuktuk,1,1)){
 if(distance_to_object(obj_school) < 2000){
 	instance_destroy();
 }
+if(distance_to_object(obj_volunteer) < 2000){
+	instance_destroy();
+}
 

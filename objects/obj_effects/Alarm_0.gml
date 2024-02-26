@@ -1,7 +1,6 @@
 /// @description make it rain
 if(rain){
 	rain = false;
-
 }else{
 	rain = true;
 }

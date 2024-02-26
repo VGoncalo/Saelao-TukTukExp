@@ -16,6 +16,7 @@ if(room_get_name(room) == "rm_menu"){
 		obj_char_peter.image_index = 1;
 	}
 	pc_character = selected_character;
+	//if(particle_exists(ps_rain)){part_emitter_destroy_all(ps_rain)}
 }
 else if(room_get_name(room) == "rm_game"){
 	inMenu = false;
