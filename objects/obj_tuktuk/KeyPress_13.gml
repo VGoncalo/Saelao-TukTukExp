@@ -26,6 +26,8 @@ if(instance_exists(obj_school) && amount_of_volunteers != 0){
 	obj_controller.pc_volunteers_in_school += amount_of_volunteers;
 	obj_controller.pc_Teachers_in_school += amount_of_teachers;
 	obj_controller.pc_Engineers_in_school += amount_of_engineers;
+	obj_controller._time_vol_droped_at_school = time_on_road;
+	obj_controller.pc_volunteers_dropout += 1;
 	
 	amount_of_volunteers = 0;
 	amount_of_engineers = 0;

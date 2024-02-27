@@ -31,6 +31,7 @@ if(rain){
 }
 
 
-if(object_exists(obj_tuktuk)){
-	
+if(room_get_name(room) = "rm_menu"){
+	rain = false;
+	wind = false;
 }

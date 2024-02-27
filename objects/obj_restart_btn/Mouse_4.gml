@@ -1,6 +1,6 @@
 //show_debug_message("RESTARTING GAME");
 //show_debug_message(player_score);
-LootLockerSubmitScore("20179",player_score);
+LootLockerSubmitScore("19174",player_score);
 
 effect_clear();
 if(file_exists("save.txt")){

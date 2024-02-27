@@ -5,5 +5,5 @@ if(rain){
 	rain = true;
 }
 
-
+show_debug_message("make it rain");
 alarm[0] = rain_timer * random_range(1,3);

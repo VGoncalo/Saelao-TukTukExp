@@ -7,6 +7,8 @@ function save_game(){
 		amount_engi : obj_controller.pc_Engineers_in_school,
 		amount_teach : obj_controller.pc_Teachers_in_school,
 		engine_health : obj_controller.pc_engine_health,
+		amount_tramples : obj_controller.pc_total_tramples,
+		//time_bonus : obj_controller.pc_time_bonus,
 		time_game : obj_controller.pc_time_in_game,
 		total_points : obj_controller._current_player_score
 	}
@@ -30,6 +32,8 @@ function load_game(){
 		obj_controller.pc_Teachers_in_school = _struct.amount_teach;
 		obj_controller._current_player_score = _struct.total_points;
 		obj_controller.pc_engine_health = _struct.engine_health;
+		//obj_controller.pc_time_bonus = _struct.time_bonus;
+		obj_controller.pc_total_tramples = _struct.amount_tramples;
 		
 		room_goto(3);
 		file_text_close(_file);

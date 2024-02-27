@@ -24,11 +24,14 @@ pc_speed = 0;
 pc_character = selected_character;
 pc_time_in_game = 0;
 pc_distance = 0;
+pc_volunteers_dropout = 0;
 pc_volunteers_in_school = 0;
 pc_Engineers_in_school = 0;
 pc_Teachers_in_school = 0;
 pc_total_tramples = 0;
 pc_engine_health = 100;
+pc_time_bonus = 0; 
+_time_vol_droped_at_school = 0;
 _current_player_score = 0;
 player_previous_score = 0;
 
@@ -42,4 +45,5 @@ _uniColor = shader_get_uniform(sh_depth_highlight, "u_colour");
 _color    = [1.0, 1.0, 0.0, 1.0];
 
 //Lootlocker
-LootLockerInitialize("dev_d0ebc41583314cfab5cee156362fa866", "0.1", true, 20179);
+//LootLockerInitialize("dev_d0ebc41583314cfab5cee156362fa866", "0.1", true, 20179); //testing things
+LootLockerInitialize("dev_230239e200de470b9634d203a9c3e981", "0.1", true, 19174); //SaeLao Board

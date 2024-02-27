@@ -39,7 +39,13 @@ else if(room_get_name(room) == "rm_game"){
 		}
 		pc_time_in_game = obj_tuktuk.time_on_road;
 		pc_engine_health = obj_tuktuk.engine_health;
+		
+		//Time inGame Bonus
+		var _bonus = pc_time_in_game - _time_vol_droped_at_school;
+		show_debug_message(_bonus);
+	
 		_current_player_score = (pc_volunteers_in_school + pc_Engineers_in_school + pc_Teachers_in_school*2)*10 - (pc_total_tramples)*2;
+		show_debug_message(_current_player_score + _bonus);
 	}
 	if(tuktuk_isBroken && not(isGamePause)){
 		obj_move_parent.driver_max_speed = 0;
@@ -52,6 +58,7 @@ else if(room_get_name(room) == "rm_game"){
 		if(!isGameOver and alarm_get(0) == -1 && not(isGamePause)){
 			alarm_set(0, room_speed*1);
 			//isGameOver = true;
+			//if(object_exists(obj_effects)){obj_effects.rain = false;}
 			obj_items_spawner.alarm[0] = -1;
 			obj_items_spawner.alarm[1] = -1;
 			obj_items_spawner.alarm[2] = -1;

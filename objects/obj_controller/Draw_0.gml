@@ -61,7 +61,8 @@ if(room_get_name(room) == "rm_game"){
 		var str_player_score = "Total Points: "+string(_current_player_score);
 		draw_text_transformed(_view_x+_view_w/3 , _view_y+_view_h/2+128,str_player_score,2,2,0);
 		if(not(instance_exists(obj_restart_btn))){
-			instance_create_layer(_view_x+_view_w/3 , _view_y+_view_h/2+256,"above",obj_restart_btn);
+			//instance_create_layer(_view_x+_view_w/3 , _view_y+_view_h/2+256,"above",obj_restart_btn);
+			instance_create_depth(_view_x+_view_w/3 , _view_y+_view_h/2+256,-1,obj_restart_btn);
 		}
 	}
 }

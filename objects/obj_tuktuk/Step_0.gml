@@ -28,7 +28,7 @@ if(right){
 }
 
 if(!right and !left){hspeed = 0; image_angle = 0;}
-if(!right and !left and _windForce != 0){hspeed = _windForce; image_angle = 0;}
+if(!right and !left and _windForce != 0 and isMoving and obj_move_parent.speed > 8){hspeed = _windForce; image_angle = 0;}
 if(!isMoving){hspeed = 0;}
 
 

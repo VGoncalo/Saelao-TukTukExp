@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_volunteer_run",
-    "path": "sprites/spr_volunteer_run/spr_volunteer_run.yy",
+    "name": "spr_Engineer",
+    "path": "sprites/spr_Engineer/spr_Engineer.yy",
   },
   "spriteMaskId": null,
   "visible": true,
