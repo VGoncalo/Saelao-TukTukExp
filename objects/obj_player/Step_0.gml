@@ -21,4 +21,6 @@ if(collision_circle(x,y,96,obj_newgame_tuktuk,1,1)){
 
 if(collision_circle(x,y,4,obj_newgame_tuktuk,1,1)){
 	instance_destroy();
+	//audio_play_sound(sd_door_close,1,0,0,0,0,0);
+	audio_play_sound(sd_door_close,0,false);
 }

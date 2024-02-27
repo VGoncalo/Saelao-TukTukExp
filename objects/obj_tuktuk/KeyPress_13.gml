@@ -32,6 +32,8 @@ if(instance_exists(obj_school) && amount_of_volunteers != 0){
 	amount_of_volunteers = 0;
 	amount_of_engineers = 0;
 	amount_of_teachers = 0;
+	audio_play_sound(sd_honk,0,false);
 }else{
 	//play honk sound
+	audio_play_sound(sd_honk,0,false);
 }
