@@ -44,6 +44,13 @@ part_system_clear(_brokenTukTuk);
 _uniColor = shader_get_uniform(sh_depth_highlight, "u_colour");
 _color    = [1.0, 1.0, 0.0, 1.0];
 
+//Radio
+_current_song = "None";
+_menu_song_playing = false;
+_menu_song = 0;
+radio = [sd_radio_1,sd_radio_2,sd_radio_3,sd_radio_4,sd_radio_5,sd_radio_6,sd_radio_7,sd_radio_8,sd_radio_9,sd_radio_10,sd_radio_11,sd_radio_12];
+
+
 //Lootlocker
 //LootLockerInitialize("dev_d0ebc41583314cfab5cee156362fa866", "0.1", true, 20179); //testing things
 LootLockerInitialize("dev_230239e200de470b9634d203a9c3e981", "0.1", true, 19174); //SaeLao Board

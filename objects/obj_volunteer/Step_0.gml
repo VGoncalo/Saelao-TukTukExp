@@ -13,11 +13,13 @@ if(collision_ellipse(x-124,y-320,x+124,y+320,obj_tuktuk,1,1)){
 					//show_debug_message(_vol_type)
 					if(_vol_type = "obj_teacher"){
 						obj_tuktuk.amount_of_teachers = obj_tuktuk.amount_of_teachers+1;
+						audio_play_sound(sd_pling,0,false);
 					}else if(_vol_type = "obj_engineer"){
 						obj_tuktuk.amount_of_engineers = obj_tuktuk.amount_of_engineers+1;
+						audio_play_sound(sd_pling_eng,0,false);
+					}else{
+						audio_play_sound(sd_pling2,0,false);
 					}
-					
-					
 					obj_tuktuk.amount_of_volunteers = obj_tuktuk.amount_of_volunteers+1;
 					instance_destroy(_volunteer);		
 				}

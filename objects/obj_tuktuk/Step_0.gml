@@ -97,10 +97,6 @@ if(next_volunteer < 32 and amount_of_volunteers == max_capacity_of_volunteers){
 		alarm[0] = room_speed*1;
 	}
 	speak_nospace = true;
-	//instance_destroy(next_volunteer);
-	
-	//obj_controller._current_player_score += 1;
-	//pc_score += 1;
 }else{speak_nospace = false;}
 
 if(engine_health <= 0){

@@ -221,6 +221,7 @@
     {"id":{"name":"spr_morlor","path":"sprites/spr_morlor/spr_morlor.yy",},},
     {"id":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},},
     {"id":{"name":"obj_restart_btn","path":"objects/obj_restart_btn/obj_restart_btn.yy",},},
+    {"id":{"name":"sd_pling2","path":"sounds/sd_pling2/sd_pling2.yy",},},
     {"id":{"name":"obj_motobike","path":"objects/obj_motobike/obj_motobike.yy",},},
     {"id":{"name":"objLLTopHighscores","path":"objects/objLLTopHighscores/objLLTopHighscores.yy",},},
     {"id":{"name":"spr_tuktuk","path":"sprites/spr_tuktuk/spr_tuktuk.yy",},},
