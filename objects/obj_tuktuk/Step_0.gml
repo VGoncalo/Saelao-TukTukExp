@@ -116,3 +116,4 @@ if(amount_of_engineers > 0){
 
 amount_of_tramples = obj_controller.pc_total_tramples;
 pc_score = obj_controller._current_player_score;
+

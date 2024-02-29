@@ -51,6 +51,7 @@
     {"name":"ps_blood","order":3,"path":"particles/ps_blood/ps_blood.yy",},
     {"name":"sd_radio_8","order":13,"path":"sounds/sd_radio_8/sd_radio_8.yy",},
     {"name":"spr_quit","order":12,"path":"sprites/spr_quit/spr_quit.yy",},
+    {"name":"obj_ng_board","order":9,"path":"objects/obj_ng_board/obj_ng_board.yy",},
     {"name":"objLLDecreaseScore","order":1,"path":"objects/objLLDecreaseScore/objLLDecreaseScore.yy",},
     {"name":"spr_ts_road","order":1,"path":"sprites/spr_ts_road/spr_ts_road.yy",},
     {"name":"obj_dog","order":11,"path":"objects/obj_dog/obj_dog.yy",},

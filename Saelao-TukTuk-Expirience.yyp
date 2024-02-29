@@ -75,6 +75,7 @@
     {"id":{"name":"ps_blood","path":"particles/ps_blood/ps_blood.yy",},},
     {"id":{"name":"sd_radio_8","path":"sounds/sd_radio_8/sd_radio_8.yy",},},
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},},
+    {"id":{"name":"obj_ng_board","path":"objects/obj_ng_board/obj_ng_board.yy",},},
     {"id":{"name":"objLLDecreaseScore","path":"objects/objLLDecreaseScore/objLLDecreaseScore.yy",},},
     {"id":{"name":"spr_ts_road","path":"sprites/spr_ts_road/spr_ts_road.yy",},},
     {"id":{"name":"obj_dog","path":"objects/obj_dog/obj_dog.yy",},},

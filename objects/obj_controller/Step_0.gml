@@ -86,7 +86,7 @@ else if(room_get_name(room) == "rm_game"){
 			if(not(instance_exists(obj_save_btn))){
 				instance_create_layer(camera_get_view_x(view_camera[0])+512,camera_get_view_y(view_camera[0])+1204,"above",obj_save_btn);
 				instance_create_layer(camera_get_view_x(view_camera[0])+1024,camera_get_view_y(view_camera[0])+1204,"above",obj_pause_quit);
-				instance_create_layer(camera_get_view_x(view_camera[0])+750,camera_get_view_y(view_camera[0])+1250,"above",obj_audio_btn);
+				//instance_create_layer(camera_get_view_x(view_camera[0])+750,camera_get_view_y(view_camera[0])+1250,"above",obj_audio_btn);
 			}
 		}else{
 			instance_activate_all();
@@ -97,18 +97,19 @@ else if(room_get_name(room) == "rm_game"){
 				with(obj_pause_quit){instance_destroy();}
 			}
 			if(instance_exists(obj_audio_btn)){
-				with(obj_audio_btn){instance_destroy();}
+			//	with(obj_audio_btn){instance_destroy();}
 			}
 		}
 	}
 	
 	//Radio
-	if(object_exists(obj_audio_btn) and obj_audio_btn.music and _current_song != "None"){
-		if(not(audio_is_playing(_current_song))){
-			_next_song = ceil(random_range(0,11));
-			_current_song = audio_play_sound(radio[_next_song],0,false);
+	if(object_exists(obj_audio_btn)){
+		if(_current_song != "None"){
+			if(not(audio_is_playing(_current_song))){
+				_next_song = ceil(random_range(0,11));
+				_current_song = audio_play_sound(radio[_next_song],0,false);
+			}
 		}
-		
 	}
 	
 	
